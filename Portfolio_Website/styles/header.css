@@ -44,7 +44,7 @@
     margin-top: 11vh;
     height: 75vh;
     position: relative;
-    background-image: url("/media/Scenery.jpg");
+    background-image: url("../media/Scenery.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
