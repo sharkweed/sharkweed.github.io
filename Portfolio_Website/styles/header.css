@@ -1,0 +1,50 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+    color: rgb(227, 226, 226);
+}
+
+.left-section {
+    width: 22%;
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-left: 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.right-section {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin-right: 50px;
+    font-size: 1.25vw;
+}
+
+.right-section div {
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+.right-section div:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.hero-section {
+    margin-top: 11vh;
+    height: 75vh;
+    position: relative;
+    background-image: url("/media/Scenery.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,64 @@
+.hero-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.portrait {
+    z-index: 101;
+    width: 18vw;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 3%;
+}
+
+.portrait-container {
+    position: absolute;
+    width: 20vw;
+    right: 8vw;
+    top: 10vh;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 15px;
+    min-width: 30vh;
+    border-radius: 3%;
+}
+
+.hero-title {
+    position: absolute;
+    left: 8vw;
+    font-size: 3.2vw;
+    color: whitesmoke;
+    top: 30vh;
+    width: 70%;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .parallax-container {
+        background-attachment: scroll;
+    }
+}
+
+.intro-section {
+    background-color: rgb(48, 43, 43);
+    height: 70vh;
+    margin: 0;
+    padding: 2%;
+    color: whitesmoke;
+    padding-left: 4vw;
+
+}
+
+.title {
+    font-size: 2.25vw;
+}
+
+.information {
+    font-size: 1vw;
+    line-height: 150%;
+}
