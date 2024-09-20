@@ -29,10 +29,8 @@
     cursor: pointer;
     text-decoration: none;
     color: rgb(196, 195, 195);
-    display: block;
     line-height: 2;
     margin-top: 0;
-    width: 25%;
     transition: color 0.2s;
 }
 
@@ -112,7 +110,6 @@
     padding: 30px;
     border-radius: 5px;
     margin: 0;
-    height: 32vh;
     left: 5vw;
     top: 10vh;
     transition: all 0.5s;
@@ -140,7 +137,6 @@
     padding-top: 0;
     margin-left: 5vw;
     background-color: rgb(48, 48, 48);
-    height: 54vh;
     transition: all 0.5s;
 
 }
@@ -183,7 +179,6 @@
 
 .work-image-container {
     width: 20vw;
-    height: 52vh;
     min-width: 5vh;
     background-color: rgb(48, 48, 48);
     padding: 1vw;
@@ -223,7 +218,6 @@
     background-color: rgb(48, 48, 48);
     color: whitesmoke;
     width: 50vw;
-    height: 57vh;
     padding: 1vw;
     padding-top: 0;
     margin: 0;
@@ -239,7 +233,6 @@
 
 .project-image-container {
     width: 20vw;
-    height: 55vh;
     min-width: 5vh;
     background-color: rgb(48, 48, 48);
     padding: 1vw;
