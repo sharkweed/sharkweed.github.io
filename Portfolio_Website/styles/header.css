@@ -24,13 +24,13 @@
 
 .right-section {
     display: flex;
-    width: 40%;
+    width: 20%;
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 10vw;
     font-size: 1.25vw;
 }
 
-.right-section div {
+.right-section a {
     cursor: pointer;
     transition: 0.15s;
 }
@@ -40,11 +40,9 @@
     text-decoration: underline;
 }
 
-.hero-section {
-    margin-top: 11vh;
-    height: 75vh;
-    position: relative;
-    background-image: url("../media/Scenery.jpg");
-    background-size: cover;
-    background-attachment: fixed;
+.email,
+.phone {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
 }

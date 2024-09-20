@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/about-me.css">
@@ -14,13 +14,15 @@
 <body>
     <header class="header">
         <div class="left-section">
-        <div class="name">Jacob Hatch</div>
+            <div class="name">Jacob Hatch</div>
         </div>
-        <!--<div class="right-section">
-            <div class="home">Home</div>
+        <div class="right-section">
+            <a href="mailto:jjhatch@mtu.edu" class="email">Email</a>
+            <a href="tel:+19062049970" class="phone">Phone</a>
+            <!--<div class="home">Home</div>
             <div class="about-me">About Me</div>
-            <div class="contact-me">Contact Info</div>
-        </div>-->
+            <div class="contact-me">Contact Info</div>-->
+        </div>
     </header>
     <div class="hero-section">
         <div class="portrait-container">
@@ -31,6 +33,10 @@
             <p class="information">
                 Hello, my name is Jacob Hatch. I am from Negaunee, Michigan, and a current student at Michigan Technological University.
                 I have been programming for 4 years and am knowledgeable in Java, C, Rust, HTML, CSS, C++, and JavaScript.
+                <br>
+            </p>
+            <p class="contact-info">
+                Contact Me: jjhatch@mtu.edu
             </p>
         </div>
         <!--<h1 class="hero-title">Aspiring Developer with a Passion for Innovation</h1>-->
@@ -69,9 +75,30 @@
 
         <div class="projects-section">
             <h2 class="project-title">My Projects:</h2>
-            <div class="keyboard-container">
-                <div class="keyboard-title">Custom Keyboard</div>
+            <h3 class="keyboard-title">Custom Keyboard</h3>
+            <div class="info">
+                I built a custom one-handed keyboard without the use of a PCB board, wiring a matrix using diodes.
+                I used an ESP32 and its bluetooth capabilities to make the communication wireless, although 
+                there is currently no battery so it still needs wired power.
+                The base and baseplate were designed in SolidWorks and 3D printed, and the code was programmed using PlatformIO with C++.
             </div>
+            <h3 class="ai-title">Simple Neural Network</h3>
+            <div class="info">
+                I built a program that could tell the difference between a picture of a tomato and an apple with a neural network.
+                This was achieved in Python and using the PyTorch libary. The program converted images to 100x100 pixels and then trained
+                the neural network using a CNN. A seperate batch of files was used for testing, and the model achieved 97% accuracy.
+            </div>
+            <h3 class="business-website">Website for Business</h3>
+            <div class="info">
+                I am currently in the process of creating a website for a business from my home town. 
+                This business is the Coleman Agency Farm Bureau location in Harvey, Michigan.
+                The goal of this website is to make a web page that is more interactive with users and more customized with what the business wants.
+                This includes a different layout, and a way for customers to easily send information through the website.
+            </div>
+        </div>
+        <div class="project-image-container">
+            <img class="keyboard-picture" src="../media/Keyboard2.jpg" alt="keyboard image">
+            <p>Custom Built Keyboard</p>
         </div>
     </div>
 </body>

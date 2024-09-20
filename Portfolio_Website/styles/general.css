@@ -2,5 +2,15 @@ body {
     font-family: Roboto, Arial;
     padding: 0;
     margin: 0;
-    height: 5000px;
+    height: 2100px;
+}
+
+
+.hero-section {
+    margin-top: 11vh;
+    height: 75vh;
+    position: relative;
+    background-image: url("../media/Scenery.jpg");
+    background-size: cover;
+    background-attachment: fixed;
 }
